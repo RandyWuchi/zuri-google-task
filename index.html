@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__menu">
+          <div class="header__links">
+            <div class="header__link">
+              <a href="#">Gmail</a>
+            </div>
+            <div class="header__link">
+              <a href="#">Images</a>
+            </div>
+          </div>
+          <div class="header__icons">
+            <div class="header__icon">
+              <a class="icon-container" href="#">
+                <svg class="icon icon--gray">
+                  <use xlink:href="images/sprite.svg#apps"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="header__icon">
+              <a class="icon-container" href="#">
+                <div class="header__image">
+                  <span>N</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="logo">
+      <div>
+        <img
+          src="images/googlelogo.png"
+          alt="logo"
+          srcset="images/googlelogo1x.png 1x, images/googlelogo2x.png 2x"
+          width="272"
+        />
+      </div>
+    </section>
+
+    <section class="search">
+      <form>
+        <div class="search-container">
+          <div class="search__input-container">
+            <div class="search__input-group">
+              <div class="search__search-icon">
+                <div class="search__icon-container">
+                  <span class="search__icon">
+                    <svg class="icon icon--light-gray icon--small">
+                      <use xlink:href="images/sprite.svg#search"></use>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="search__input">
+                <input type="text" />
+              </div>
+              <div class="search__microphone">
+                <div class="search__microphone-icon">
+                  <svg class="icon">
+                    <use xlink:href="images/sprite.svg#microphone"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="search__cta">
+            <center>
+              <input type="submit" value="Google Search" />
+              <input type="submit" value="I'm Feeling Lucky" />
+            </center>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="languages">
+      <div class="languages-container">
+        <div class="languages__content">
+          Google offered in:
+          <a href="#">Ελληνικά</a>
+          <a href="#">Türkçe</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer__location">Cyprus</div>
+      <div class="footer__links">
+        <div class="footer__link">
+          <a href="#">About</a>
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search Works</a>
+        </div>
+        <div class="footer__link">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
